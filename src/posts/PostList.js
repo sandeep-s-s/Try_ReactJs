@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 
+import PostDetails from './PostDetails'
 import PostData from '../data/posts.json'
 
 class PostList extends Component {
@@ -9,10 +10,7 @@ class PostList extends Component {
         <h1>React Js</h1>
         <ul>
           {PostData.map((data, i) => (
-            <div key={i}>
-              <b>{data.title} on {data.date}</b> :
-              {data.content}
-            </div>
+            <PostDetails post={data} key={`post-list-key ${i}`} />
           ))}
         </ul>
       </div>
