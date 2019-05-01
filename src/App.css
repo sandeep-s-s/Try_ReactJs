@@ -31,3 +31,25 @@
     transform: rotate(360deg);
   }
 }
+
+footer p{
+  color: red;
+}
+
+
+ul li {
+  text-align: left
+}
+
+button {
+  background-color: #e7e7e7;
+  border-color: #e7e7e7;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+

@@ -26,6 +26,9 @@ class PostDetails extends Component {
       <div>
         <b onClick={this.titleWasClicked}>{post.title} on {post.date}</b> {toggleFlag === true ? <p>{post.content}</p> : ''}
         <button onClick={this.toggleContent}>Toggle content</button>
+        <br />
+        <br />
+        <br />
       </div>
     )
   }

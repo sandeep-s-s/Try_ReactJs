@@ -7,7 +7,7 @@ class PostList extends Component {
   render () {
     return (
       <div >
-        <h1>React Js</h1>
+        <h1>Home Page</h1>
         <ul>
           {PostData.map((data, i) => (
             <PostDetails post={data} key={`post-list-key ${i}`} />
