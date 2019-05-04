@@ -1,7 +1,7 @@
 [ 
     {
         "id": 1,
-        "title": "Hello World",
+        "title": "Try ReactJS",
         "content": "Try Reactjs is awesome. Can't wait to learn more",
         "date": "12-04-2017",
         "slug": "hello-world"
@@ -12,5 +12,12 @@
         "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, ",
         "date": "1-28-2018",
         "slug": "setup-react"
+    },
+    {
+        "id" : 3,
+        "title" : "React todo",
+        "content" : "Lorem ipsum todo",
+        "date" : "01-12-2019",
+        "slug" : "todo-react"
     }
 ]
