@@ -1,10 +1,11 @@
 import React from 'react'
 
 function Product (props) {
+  const { product } = props
   return (
     <div>
-      <h2>{props.product.name}</h2>
-      <p>INR {props.product.price} - {props.product.description}</p>
+      <h2>{product.name}</h2>
+      <p>INR {product.price} - {product.description}</p>
     </div>
   )
 }

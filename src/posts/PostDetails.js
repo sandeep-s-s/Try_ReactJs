@@ -25,10 +25,8 @@ class PostDetails extends Component {
     return (
       <div>
         <b onClick={this.titleWasClicked}>{post.title} </b> on  {post.date} {toggleFlag === true ? <p>{post.content}</p> : ''}
-        <button onClick={this.toggleContent}>Toggle Details</button>
-        <br />
-        <br />
-        <br />
+        <p><button className='btn btn-success btn-sm' onClick={this.toggleContent}>Toggle Details</button>
+        </p>
       </div>
     )
   }
