@@ -8,6 +8,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import MainSection from './components/MainSection'
 import TodoList from './components/TodoList'
+import Counter from './components/Counter'
 
 class App extends Component {
   render () {
@@ -18,6 +19,7 @@ class App extends Component {
         <PostList />
         <ProductList />
         <TodoList />
+        <Counter />
         <Footer />
       </div>
     )
